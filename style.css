@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/041/879/461/small_2x/ai-generated-coffee-cup-and-coffee-beans-on-wooden-background-top-view-photo.jpeg')
+}
+.coffee-shop{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    color:white
+}
+.Header{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    gap:65%;
+    background-color:rgb(47, 105, 76);
+    border-radius:20px;
+    box-shadow:0 8px 16px;
+}
+.coffee-info{
+    text-align:center;
+    padding:10px;
+    color:rgb(247, 249, 251);
+   
+
+}
+.coffee-image{
+    margin:0 auto 10px;
+    padding:30px;
+    background-color:rgb(146, 166, 159);
+    width:210px;
+    height: 280px;
+    border-radius:20px;
+}
+.image{
+    border-radius:20px;
+
+}
+.price{
+    padding: 10px;
+}
+.buy-button{
+    background-color:rgb(142, 138, 135);
+    border:none;
+    border-radius:4px;
+    text-align:center;
+}
+.buy-button:hover{
+    background-color:rgb(190, 68, 68);
+    color:white;
+}
+.all-image{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+.coffee-info p{
+    font-size:30px;
+    padding:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen(max-width:600px){
+    .all-image{
+        display:flex;
+        flex-direction:column;
+    }
+}
+.picture-admin{
+    border-radius:20px;
+}
+.informatoin{
+    padding:20px;
+    font-size:30px;
+}
